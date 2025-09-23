@@ -7,6 +7,21 @@ header:
   overlay_filter: "0.4"
 ---
 
+<div style="text-align: center; margin: 20px 0; padding: 15px 0; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0;">
+  <div style="display: inline-block; margin: 0 20px;">
+    <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px;">关于我</a>
+  </div>
+  <div style="display: inline-block; margin: 0 20px;">
+    <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px;">作品集</a>
+  </div>
+  <div style="display: inline-block; margin: 0 20px;">
+    <a href="/blog/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px;">学习日志</a>
+  </div>
+  <div style="display: inline-block; margin: 0 20px;">
+    <a href="/certifications/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px;">认证</a>
+  </div>
+</div>
+
 ## 欢迎来到我的数据分析世界
 
 我是一名热爱数据分析的专业人士，专注于将复杂的数据转化为有价值的商业洞察。
@@ -25,7 +40,3 @@ header:
 
 ### 💡 为什么选择数据分析？
 数据不会说谎，但需要我们用心去解读。我相信通过专业的数据分析，可以帮助企业发现隐藏的机会，优化业务流程，做出更明智的决策。
-
----
-
-**探索更多**: [关于我](/about/) | [作品集](/portfolio/) | [学习日志](/blog/) | [认证](/certifications/)
