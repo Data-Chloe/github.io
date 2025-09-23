@@ -1,0 +1,5 @@
+title: "Chloe's Data Lens"
+description: "Data Analytics Portfolio | Tableau · Power BI"
+remote_theme: "mmistakes/minimal-mistakes"
+plugins: [jekyll-remote-theme, jekyll-include-cache]
+markdown: kramdown
