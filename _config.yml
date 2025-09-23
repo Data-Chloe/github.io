@@ -3,3 +3,16 @@ description: "Data Analytics Portfolio | Tableau · Power BI"
 remote_theme: "mmistakes/minimal-mistakes"
 plugins: [jekyll-remote-theme, jekyll-include-cache]
 markdown: kramdown
+
+# 顶部导航
+nav:
+  - title: "Home"
+    url: /
+  - title: "Portfolio"   # 先只是一个页面的入口
+    url: /portfolio/
+  - title: "Certifications"
+    url: /certifications/
+  - title: "Blog"
+    url: /blog/
+  - title: "About"
+    url: /about/
