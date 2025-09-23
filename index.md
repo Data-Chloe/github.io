@@ -3,7 +3,7 @@ layout: splash
 title: "Hi, I'm Chloe"
 excerpt: "Data Analytics · Tableau · Power BI"
 header:
-  overlay_color: "#000"
+  overlay_color: "#2d5a3d"
   overlay_filter: "0.4"
 ---
 
