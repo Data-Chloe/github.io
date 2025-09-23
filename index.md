@@ -8,6 +8,9 @@ header:
 
 <div style="text-align: center; margin: 20px 0; padding: 15px 0; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0;">
   <div style="display: inline-block; margin: 0 20px;">
+    <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px;">首页</a>
+  </div>
+  <div style="display: inline-block; margin: 0 20px;">
     <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px;">关于我</a>
   </div>
   <div style="display: inline-block; margin: 0 20px;">
