@@ -1,11 +1,19 @@
 ---
-layout: splash
+layout: single
 title: "Hi, I'm Chloe"
-header:
-  overlay_color: "#2d5a3d"
-  overlay_filter: "0.4"
-  image: https://via.placeholder.com/1200x600/2d5a3d/ffffff?text=Chloe
 ---
+
+<div style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 80px 20px; text-align: center; margin: -20px -20px 40px -20px;">
+  <div style="display: flex; align-items: center; justify-content: center; gap: 30px; max-width: 1200px; margin: 0 auto;">
+    <div style="flex: 1;">
+      <h1 style="font-size: 3rem; margin: 0; font-weight: bold;">Hi, I'm Chloe</h1>
+      <p style="font-size: 1.2rem; margin: 20px 0 0 0; opacity: 0.9;">Data Analytics Professional</p>
+    </div>
+    <div style="flex: 0 0 200px;">
+      <img src="/assets/images/profile.jpg" alt="Chloe" style="width: 200px; height: 200px; border-radius: 50%; border: 4px solid rgba(255,255,255,0.3); object-fit: cover;">
+    </div>
+  </div>
+</div>
 
 <div style="text-align: center; margin: 20px 0; padding: 15px 0; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0;">
   <div style="display: inline-block; margin: 0 20px;">
