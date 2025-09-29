@@ -7,8 +7,7 @@ title: "G'day, I'm Chloe."
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
     <div style="display: flex; align-items: center; justify-content: center; gap: 40px; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 350px; text-align: left;">
-        <h1 style="font-size: 3rem; margin: 0 0 15px 0; font-weight: 700; line-height: 1.2;">G'day, I'm Chloe.</h1>
-        <p style="font-size: 1.2rem; margin: 0; opacity: 0.9; font-weight: 400;">Data Analytics Professional</p>
+        <h1 style="font-size: 3rem; margin: 0; font-weight: 700; line-height: 1.2;">G'day, I'm Chloe.</h1>
       </div>
       <div style="flex: 0 0 auto; text-align: center;">
         <img src="/assets/images/profile.jpg" alt="Chloe" style="width: 200px; height: 200px; border-radius: 50%; border: 3px solid rgba(255,255,255,0.5); object-fit: cover; object-position: center; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; box-shadow: 0 6px 20px rgba(0,0,0,0.15);">
