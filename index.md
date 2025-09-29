@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "G'day, I'm Chloe"
+title: "G'day, I'm Chloe."
 ---
 
 <div class="hero-section" style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 60px 0; text-align: center;">
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
     <div style="display: flex; align-items: center; justify-content: center; gap: 40px; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 350px; text-align: left;">
-        <h1 style="font-size: 3rem; margin: 0 0 15px 0; font-weight: 700; line-height: 1.2;">G'day, I'm Chloe</h1>
+        <h1 style="font-size: 3rem; margin: 0 0 15px 0; font-weight: 700; line-height: 1.2;">G'day, I'm Chloe.</h1>
         <p style="font-size: 1.2rem; margin: 0; opacity: 0.9; font-weight: 400;">Data Analytics Professional</p>
       </div>
       <div style="flex: 0 0 auto; text-align: center;">
