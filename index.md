@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Hi, I'm Chloe"
 ---
 
@@ -18,6 +18,48 @@ title: "Hi, I'm Chloe"
 </div>
 
 <style>
+/* 强制覆盖Jekyll默认样式 */
+.hero-section {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 60px 0 !important;
+  background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%) !important;
+  color: white !important;
+  text-align: center !important;
+}
+
+.hero-section > div {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 30px !important;
+  width: 100% !important;
+}
+
+.hero-section > div > div {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 40px !important;
+  flex-wrap: wrap !important;
+  width: 100% !important;
+}
+
+/* 笔记本电脑响应式 */
+@media (min-width: 769px) {
+  .hero-section > div > div {
+    flex-direction: row !important;
+  }
+  .hero-section h1 {
+    font-size: 3rem !important;
+  }
+  .hero-section img {
+    width: 180px !important;
+    height: 180px !important;
+  }
+}
+
+/* 手机响应式 */
 @media (max-width: 768px) {
   .hero-section {
     padding: 50px 20px !important;
@@ -38,19 +80,6 @@ title: "Hi, I'm Chloe"
     height: 140px !important;
   }
 }
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .hero-section > div > div {
-    gap: 30px !important;
-  }
-  .hero-section h1 {
-    font-size: 2.8rem !important;
-  }
-  .hero-section img {
-    width: 160px !important;
-    height: 160px !important;
-  }
-}
 </style>
 
 <div class="nav-section" style="text-align: center; margin: 30px 0; padding: 20px 0; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background: #fafafa;">
@@ -66,6 +95,45 @@ title: "Hi, I'm Chloe"
 </div>
 
 <style>
+/* 导航栏样式 */
+.nav-section {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 30px 0 !important;
+  padding: 20px 0 !important;
+  text-align: center !important;
+  border-top: 1px solid #e8e8e8 !important;
+  border-bottom: 1px solid #e8e8e8 !important;
+  background: #fafafa !important;
+}
+
+.nav-section > div {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 30px !important;
+  width: 100% !important;
+}
+
+.nav-section > div > div {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 40px !important;
+  flex-wrap: wrap !important;
+  width: 100% !important;
+}
+
+.nav-section a {
+  color: #2d5a3d !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  padding: 8px 16px !important;
+  border-radius: 6px !important;
+  transition: background-color 0.3s !important;
+}
+
+/* 手机导航响应式 */
 @media (max-width: 768px) {
   .nav-section > div > div {
     gap: 20px !important;
