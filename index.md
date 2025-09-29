@@ -4,6 +4,8 @@ title: "Hi, I'm Chloe"
 header:
   overlay_color: "#2d5a3d"
   overlay_filter: "0.4"
+  image: /assets/images/profile.jpg
+  caption: "Chloe - Data Analytics Professional"
 ---
 
 <div style="text-align: center; margin: 20px 0; padding: 15px 0; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0;">
