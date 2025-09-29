@@ -11,7 +11,7 @@ title: "Hi, I'm Chloe"
         <p style="font-size: 1.2rem; margin: 0; opacity: 0.9; font-weight: 400;">Data Analytics Professional</p>
       </div>
       <div style="flex: 0 0 auto; text-align: center;">
-        <img src="/assets/images/profile.jpg" alt="Chloe" style="width: 180px; height: 180px; border-radius: 50%; border: 3px solid rgba(255,255,255,0.5); object-fit: cover; box-shadow: 0 6px 20px rgba(0,0,0,0.15);">
+        <img src="/assets/images/profile.jpg" alt="Chloe" style="width: 200px; height: 200px; border-radius: 50%; border: 3px solid rgba(255,255,255,0.5); object-fit: cover; object-position: center; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; box-shadow: 0 6px 20px rgba(0,0,0,0.15);">
       </div>
     </div>
   </div>
@@ -54,8 +54,12 @@ title: "Hi, I'm Chloe"
     font-size: 3rem !important;
   }
   .hero-section img {
-    width: 180px !important;
-    height: 180px !important;
+    width: 200px !important;
+    height: 200px !important;
+    image-rendering: -webkit-optimize-contrast !important;
+    image-rendering: crisp-edges !important;
+    object-fit: cover !important;
+    object-position: center !important;
   }
 }
 
@@ -76,8 +80,12 @@ title: "Hi, I'm Chloe"
     font-size: 1rem !important;
   }
   .hero-section img {
-    width: 140px !important;
-    height: 140px !important;
+    width: 160px !important;
+    height: 160px !important;
+    image-rendering: -webkit-optimize-contrast !important;
+    image-rendering: crisp-edges !important;
+    object-fit: cover !important;
+    object-position: center !important;
   }
 }
 </style>
