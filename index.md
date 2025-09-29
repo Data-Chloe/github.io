@@ -3,15 +3,15 @@ layout: single
 title: "Hi, I'm Chloe"
 ---
 
-<div class="hero-section" style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 80px 0; text-align: center;">
-  <div style="max-width: 1000px; margin: 0 auto; padding: 0 40px;">
-    <div style="display: flex; align-items: center; justify-content: center; gap: 50px; flex-wrap: wrap;">
-      <div style="flex: 1; min-width: 300px;">
-        <h1 style="font-size: 3.5rem; margin: 0 0 20px 0; font-weight: 700; line-height: 1.1;">Hi, I'm Chloe</h1>
-        <p style="font-size: 1.3rem; margin: 0; opacity: 0.95; font-weight: 300;">Data Analytics Professional</p>
+<div class="hero-section" style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 60px 0; text-align: center;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+    <div style="display: flex; align-items: center; justify-content: center; gap: 40px; flex-wrap: wrap;">
+      <div style="flex: 1; min-width: 350px; text-align: left;">
+        <h1 style="font-size: 3rem; margin: 0 0 15px 0; font-weight: 700; line-height: 1.2;">Hi, I'm Chloe</h1>
+        <p style="font-size: 1.2rem; margin: 0; opacity: 0.9; font-weight: 400;">Data Analytics Professional</p>
       </div>
-      <div style="flex: 0 0 auto;">
-        <img src="/assets/images/profile.jpg" alt="Chloe" style="width: 200px; height: 200px; border-radius: 50%; border: 4px solid rgba(255,255,255,0.4); object-fit: cover; box-shadow: 0 8px 25px rgba(0,0,0,0.2);">
+      <div style="flex: 0 0 auto; text-align: center;">
+        <img src="/assets/images/profile.jpg" alt="Chloe" style="width: 180px; height: 180px; border-radius: 50%; border: 3px solid rgba(255,255,255,0.5); object-fit: cover; box-shadow: 0 6px 20px rgba(0,0,0,0.15);">
       </div>
     </div>
   </div>
@@ -20,13 +20,31 @@ title: "Hi, I'm Chloe"
 <style>
 @media (max-width: 768px) {
   .hero-section {
-    padding: 60px 20px !important;
+    padding: 50px 20px !important;
+  }
+  .hero-section > div > div {
+    flex-direction: column !important;
+    gap: 25px !important;
+    text-align: center !important;
+  }
+  .hero-section h1 {
+    font-size: 2.5rem !important;
+  }
+  .hero-section p {
+    font-size: 1rem !important;
+  }
+  .hero-section img {
+    width: 140px !important;
+    height: 140px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-section > div > div {
+    gap: 30px !important;
   }
   .hero-section h1 {
     font-size: 2.8rem !important;
-  }
-  .hero-section p {
-    font-size: 1.1rem !important;
   }
   .hero-section img {
     width: 160px !important;
@@ -35,23 +53,30 @@ title: "Hi, I'm Chloe"
 }
 </style>
 
-<div style="text-align: center; margin: 20px 0; padding: 15px 0; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0;">
-  <div style="display: inline-block; margin: 0 20px;">
-    <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px;">首页</a>
-  </div>
-  <div style="display: inline-block; margin: 0 20px;">
-    <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px;">关于我</a>
-  </div>
-  <div style="display: inline-block; margin: 0 20px;">
-    <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px;">作品集</a>
-  </div>
-  <div style="display: inline-block; margin: 0 20px;">
-    <a href="/blog/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px;">学习日志</a>
-  </div>
-  <div style="display: inline-block; margin: 0 20px;">
-    <a href="/certifications/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px;">认证</a>
+<div class="nav-section" style="text-align: center; margin: 30px 0; padding: 20px 0; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background: #fafafa;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: wrap;">
+      <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px; padding: 8px 16px; border-radius: 6px; transition: background-color 0.3s;">首页</a>
+      <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px; padding: 8px 16px; border-radius: 6px; transition: background-color 0.3s;">关于我</a>
+      <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px; padding: 8px 16px; border-radius: 6px; transition: background-color 0.3s;">作品集</a>
+      <a href="/blog/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px; padding: 8px 16px; border-radius: 6px; transition: background-color 0.3s;">学习日志</a>
+      <a href="/certifications/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px; padding: 8px 16px; border-radius: 6px; transition: background-color 0.3s;">认证</a>
+    </div>
   </div>
 </div>
+
+<style>
+@media (max-width: 768px) {
+  .nav-section > div > div {
+    gap: 20px !important;
+    flex-wrap: wrap !important;
+  }
+  .nav-section a {
+    font-size: 14px !important;
+    padding: 6px 12px !important;
+  }
+}
+</style>
 
 ## 欢迎来到我的数据分析世界
 
