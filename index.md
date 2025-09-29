@@ -3,14 +3,16 @@ layout: single
 title: "Hi, I'm Chloe"
 ---
 
-<div class="hero-section" style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 100px 0; text-align: center; margin: -20px -20px 40px -20px; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;">
-  <div style="display: flex; align-items: center; justify-content: center; gap: 60px; max-width: 1200px; margin: 0 auto; padding: 0 40px;">
-    <div style="flex: 1;">
-      <h1 style="font-size: 4rem; margin: 0; font-weight: bold; line-height: 1.2;">Hi, I'm Chloe</h1>
-      <p style="font-size: 1.5rem; margin: 30px 0 0 0; opacity: 0.9; font-weight: 300;">Data Analytics Professional</p>
-    </div>
-    <div style="flex: 0 0 250px;">
-      <img src="/assets/images/profile.jpg" alt="Chloe" style="width: 250px; height: 250px; border-radius: 50%; border: 6px solid rgba(255,255,255,0.3); object-fit: cover; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+<div class="hero-section" style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 80px 0; text-align: center;">
+  <div style="max-width: 1000px; margin: 0 auto; padding: 0 40px;">
+    <div style="display: flex; align-items: center; justify-content: center; gap: 50px; flex-wrap: wrap;">
+      <div style="flex: 1; min-width: 300px;">
+        <h1 style="font-size: 3.5rem; margin: 0 0 20px 0; font-weight: 700; line-height: 1.1;">Hi, I'm Chloe</h1>
+        <p style="font-size: 1.3rem; margin: 0; opacity: 0.95; font-weight: 300;">Data Analytics Professional</p>
+      </div>
+      <div style="flex: 0 0 auto;">
+        <img src="/assets/images/profile.jpg" alt="Chloe" style="width: 200px; height: 200px; border-radius: 50%; border: 4px solid rgba(255,255,255,0.4); object-fit: cover; box-shadow: 0 8px 25px rgba(0,0,0,0.2);">
+      </div>
     </div>
   </div>
 </div>
@@ -19,18 +21,16 @@ title: "Hi, I'm Chloe"
 @media (max-width: 768px) {
   .hero-section {
     padding: 60px 20px !important;
-    flex-direction: column !important;
-    gap: 30px !important;
   }
   .hero-section h1 {
-    font-size: 2.5rem !important;
+    font-size: 2.8rem !important;
   }
   .hero-section p {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
   }
   .hero-section img {
-    width: 180px !important;
-    height: 180px !important;
+    width: 160px !important;
+    height: 160px !important;
   }
 }
 </style>
