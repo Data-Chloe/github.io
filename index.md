@@ -93,11 +93,11 @@ title: "Hi, I'm Chloe"
 <div class="nav-section" style="text-align: center; margin: 30px 0; padding: 20px 0; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background: #fafafa;">
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
     <div style="display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: wrap;">
-      <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px; padding: 8px 16px; border-radius: 6px; transition: background-color 0.3s;">首页</a>
-      <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px; padding: 8px 16px; border-radius: 6px; transition: background-color 0.3s;">关于我</a>
-      <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px; padding: 8px 16px; border-radius: 6px; transition: background-color 0.3s;">作品集</a>
-      <a href="/blog/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px; padding: 8px 16px; border-radius: 6px; transition: background-color 0.3s;">学习日志</a>
-      <a href="/certifications/" style="color: #2d5a3d; text-decoration: none; font-weight: 500; font-size: 16px; padding: 8px 16px; border-radius: 6px; transition: background-color 0.3s;">认证</a>
+      <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px; padding: 12px 20px; border-radius: 8px; transition: all 0.3s ease; letter-spacing: 0.5px;">首页</a>
+      <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px; padding: 12px 20px; border-radius: 8px; transition: all 0.3s ease; letter-spacing: 0.5px;">关于我</a>
+      <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px; padding: 12px 20px; border-radius: 8px; transition: all 0.3s ease; letter-spacing: 0.5px;">作品集</a>
+      <a href="/blog/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px; padding: 12px 20px; border-radius: 8px; transition: all 0.3s ease; letter-spacing: 0.5px;">学习日志</a>
+      <a href="/certifications/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px; padding: 12px 20px; border-radius: 8px; transition: all 0.3s ease; letter-spacing: 0.5px;">认证</a>
     </div>
   </div>
 </div>
@@ -134,22 +134,35 @@ title: "Hi, I'm Chloe"
 .nav-section a {
   color: #2d5a3d !important;
   text-decoration: none !important;
-  font-weight: 500 !important;
-  font-size: 16px !important;
-  padding: 8px 16px !important;
-  border-radius: 6px !important;
-  transition: background-color 0.3s !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  padding: 12px 20px !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+  letter-spacing: 0.5px !important;
 }
 
 /* 手机导航响应式 */
 @media (max-width: 768px) {
   .nav-section > div > div {
-    gap: 20px !important;
+    gap: 25px !important;
     flex-wrap: wrap !important;
   }
   .nav-section a {
-    font-size: 14px !important;
-    padding: 6px 12px !important;
+    font-size: 16px !important;
+    padding: 10px 16px !important;
+    font-weight: 600 !important;
+  }
+}
+
+/* 平板导航响应式 */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nav-section > div > div {
+    gap: 35px !important;
+  }
+  .nav-section a {
+    font-size: 17px !important;
+    padding: 11px 18px !important;
   }
 }
 </style>
