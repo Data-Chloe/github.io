@@ -222,29 +222,53 @@ a[href*="atom.xml"] {
 
 <div class="blog-posts">
 <h3 style="color: #2d5a3d; text-align: center; margin-bottom: 30px; font-size: 28px;">📝 Latest Posts</h3>
-<ul style="list-style: none; padding: 0; margin: 0;">
-  <li style="margin: 25px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #2d5a3d;">
-    <a href="/blog/tableau-basics/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; display: block; margin-bottom: 8px;">My Tableau Learning Journey</a>
-    <p style="color: #666; margin: 0; font-size: 16px; line-height: 1.5;">Complete guide from beginner to specialist certification</p>
+<ol style="list-style: none; padding: 0; margin: 0; counter-reset: post-counter;">
+  <li style="margin: 25px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #2d5a3d; counter-increment: post-counter; position: relative;">
+    <div style="display: flex; align-items: center; margin-bottom: 8px;">
+      <span style="background: #2d5a3d; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; margin-right: 15px; flex-shrink: 0;">1</span>
+      <div>
+        <a href="/blog/tableau-basics/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; display: block;">My Tableau Learning Journey</a>
+        <span style="color: #888; font-size: 14px; font-style: italic;">January 15, 2025</span>
+      </div>
+    </div>
+    <p style="color: #666; margin: 0; font-size: 16px; line-height: 1.5; margin-left: 45px;">Complete guide from beginner to specialist certification</p>
   </li>
-  <li style="margin: 25px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #2d5a3d;">
-    <a href="/blog/pte-learning-experience/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; display: block; margin-bottom: 8px;">PTE Certification Experience</a>
-    <p style="color: #666; margin: 0; font-size: 16px; line-height: 1.5;">Tips and strategies for Tableau certification success</p>
+  <li style="margin: 25px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #2d5a3d; counter-increment: post-counter; position: relative;">
+    <div style="display: flex; align-items: center; margin-bottom: 8px;">
+      <span style="background: #2d5a3d; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; margin-right: 15px; flex-shrink: 0;">2</span>
+      <div>
+        <a href="/blog/pte-learning-experience/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; display: block;">PTE Certification Experience</a>
+        <span style="color: #888; font-size: 14px; font-style: italic;">January 10, 2025</span>
+      </div>
+    </div>
+    <p style="color: #666; margin: 0; font-size: 16px; line-height: 1.5; margin-left: 45px;">Tips and strategies for Tableau certification success</p>
   </li>
-  <li style="margin: 25px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #2d5a3d;">
-    <a href="/blog/python-data-analysis/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; display: block; margin-bottom: 8px;">Python Data Analysis in Practice</a>
-    <p style="color: #666; margin: 0; font-size: 16px; line-height: 1.5;">Real-world business data analysis case study</p>
+  <li style="margin: 25px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #2d5a3d; counter-increment: post-counter; position: relative;">
+    <div style="display: flex; align-items: center; margin-bottom: 8px;">
+      <span style="background: #2d5a3d; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; margin-right: 15px; flex-shrink: 0;">3</span>
+      <div>
+        <a href="/blog/python-data-analysis/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; display: block;">Python Data Analysis in Practice</a>
+        <span style="color: #888; font-size: 14px; font-style: italic;">January 5, 2025</span>
+      </div>
+    </div>
+    <p style="color: #666; margin: 0; font-size: 16px; line-height: 1.5; margin-left: 45px;">Real-world business data analysis case study</p>
   </li>
-  <li style="margin: 25px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #2d5a3d;">
-    <a href="/blog/power-bi-advanced/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; display: block; margin-bottom: 8px;">Power BI Advanced Features</a>
-    <p style="color: #666; margin: 0; font-size: 16px; line-height: 1.5;">Enterprise-level BI reporting techniques</p>
+  <li style="margin: 25px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #2d5a3d; counter-increment: post-counter; position: relative;">
+    <div style="display: flex; align-items: center; margin-bottom: 8px;">
+      <span style="background: #2d5a3d; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; margin-right: 15px; flex-shrink: 0;">4</span>
+      <div>
+        <a href="/blog/power-bi-advanced/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; display: block;">Power BI Advanced Features</a>
+        <span style="color: #888; font-size: 14px; font-style: italic;">December 28, 2024</span>
+      </div>
+    </div>
+    <p style="color: #666; margin: 0; font-size: 16px; line-height: 1.5; margin-left: 45px;">Enterprise-level BI reporting techniques</p>
   </li>
-</ul>
+</ol>
 </div>
 
-<div style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 60px 0; text-align: center; margin: 80px 0 0 0;">
+<div style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 30px 0; text-align: center; margin: 80px 0 0 0;">
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
-    <h1 style="font-size: 3rem; margin: 0; font-weight: 700; line-height: 1.2;">Thanks for visiting!</h1>
+    <h1 style="font-size: 2.5rem; margin: 0; font-weight: 700; line-height: 1.2;">Thanks for visiting!</h1>
   </div>
 </div>
 
