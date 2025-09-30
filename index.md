@@ -5,7 +5,7 @@ title: "G'day, I'm Chloe."
 
 <div class="hero-section" style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 60px 0; text-align: center;">
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
-    <div style="display: flex; align-items: center; justify-content: center; gap: 25px; flex-wrap: wrap;">
+    <div style="display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 350px; text-align: left;">
         <h1 style="font-size: 3rem; margin: 0; font-weight: 700; line-height: 1.2;">G'day, I'm Chloe.</h1>
       </div>
@@ -39,7 +39,7 @@ title: "G'day, I'm Chloe."
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 25px !important;
+  gap: 8px !important;
   flex-wrap: wrap !important;
   width: 100% !important;
 }
@@ -69,7 +69,7 @@ title: "G'day, I'm Chloe."
   }
   .hero-section > div > div {
     flex-direction: column !important;
-    gap: 20px !important;
+    gap: 15px !important;
     text-align: center !important;
   }
   .hero-section h1 {
