@@ -163,13 +163,50 @@ title: "G'day, I'm Chloe."
     padding: 20px 32px !important;
   }
 }
+
+/* 文章列表样式 */
+.blog-posts {
+  text-align: center !important;
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+}
+
+.blog-posts ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 20px 0 !important;
+}
+
+.blog-posts li {
+  margin: 15px 0 !important;
+  padding: 10px 0 !important;
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.blog-posts li:last-child {
+  border-bottom: none !important;
+}
+
+.blog-posts a {
+  color: #2d5a3d !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+.blog-posts a:hover {
+  color: #1e3d2b !important;
+  text-decoration: underline !important;
+}
 </style>
 
-### 📝 最新文章
-- [我的 Tableau 入门总结](/blog/tableau-basics/) - 从零开始学习Tableau的完整经验分享
-- [PTE 学习经验分享](/blog/pte-learning-experience/) - Tableau认证考试备考心得
-- [Python 数据分析实战](/blog/python-data-analysis/) - 用Python处理真实业务数据的案例分析
-- [Power BI 高级功能探索](/blog/power-bi-advanced/) - 企业级BI报告设计技巧
+<div class="blog-posts">
+### 📝 Latest Posts
+- [My Tableau Learning Journey](/blog/tableau-basics/) - Complete guide from beginner to specialist certification
+- [PTE Certification Experience](/blog/pte-learning-experience/) - Tips and strategies for Tableau certification success
+- [Python Data Analysis in Practice](/blog/python-data-analysis/) - Real-world business data analysis case study
+- [Power BI Advanced Features](/blog/power-bi-advanced/) - Enterprise-level BI reporting techniques
+</div>
 
-**查看更多文章**: [Blog](/blog/)
 
