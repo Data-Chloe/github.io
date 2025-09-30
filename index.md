@@ -199,6 +199,15 @@ title: "G'day, I'm Chloe."
   color: #1e3d2b !important;
   text-decoration: underline !important;
 }
+
+/* 隐藏RSS feed */
+.page__footer-feed,
+.feed__icon,
+a[href*="feed.xml"],
+a[href*="rss.xml"],
+a[href*="atom.xml"] {
+  display: none !important;
+}
 </style>
 
 <div class="blog-posts">

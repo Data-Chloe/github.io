@@ -24,3 +24,13 @@ baseurl: ""                        # 保持空
 # 禁用RSS feed
 feed:
   enabled: false
+
+# 禁用所有feed相关功能
+atom_feed:
+  enabled: false
+rss_feed:
+  enabled: false
+
+# 禁用footer中的feed链接
+footer:
+  feed_icon: false
