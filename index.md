@@ -92,11 +92,10 @@ title: "G'day, I'm Chloe."
 <div class="nav-section" style="text-align: center; margin: 30px 0; padding: 20px 0; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background: #fafafa;">
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
     <div style="display: flex; justify-content: center; align-items: center; gap: 70px; flex-wrap: wrap;">
-      <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 24px; padding: 18px 30px; border-radius: 12px; transition: all 0.3s ease; letter-spacing: 1px;">首页</a>
-      <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 24px; padding: 18px 30px; border-radius: 12px; transition: all 0.3s ease; letter-spacing: 1px;">关于我</a>
-      <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 24px; padding: 18px 30px; border-radius: 12px; transition: all 0.3s ease; letter-spacing: 1px;">作品集</a>
-      <a href="/blog/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 24px; padding: 18px 30px; border-radius: 12px; transition: all 0.3s ease; letter-spacing: 1px;">学习日志</a>
-      <a href="/certifications/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 24px; padding: 18px 30px; border-radius: 12px; transition: all 0.3s ease; letter-spacing: 1px;">认证</a>
+      <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 24px; padding: 18px 30px; border-radius: 12px; transition: all 0.3s ease; letter-spacing: 1px;">Home</a>
+      <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 24px; padding: 18px 30px; border-radius: 12px; transition: all 0.3s ease; letter-spacing: 1px;">About</a>
+      <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 24px; padding: 18px 30px; border-radius: 12px; transition: all 0.3s ease; letter-spacing: 1px;">Portfolio</a>
+      <a href="/blog/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 24px; padding: 18px 30px; border-radius: 12px; transition: all 0.3s ease; letter-spacing: 1px;">Blog</a>
     </div>
   </div>
 </div>
@@ -180,7 +179,7 @@ title: "G'day, I'm Chloe."
 - ✅ 获得 Tableau Desktop Specialist 认证
 - ✅ 获得 Microsoft Power BI Data Analyst 认证
 - 📝 正在学习 Tableau Server 管理
-- 🔄 持续更新 [学习日志](/blog/) 和 [作品集](/portfolio/)
+- 🔄 持续更新 [Blog](/blog/) 和 [Portfolio](/portfolio/)
 
 ### 💡 为什么选择数据分析？
 数据不会说谎，但需要我们用心去解读。我相信通过专业的数据分析，可以帮助企业发现隐藏的机会，优化业务流程，做出更明智的决策。
