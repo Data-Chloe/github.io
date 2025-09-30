@@ -91,11 +91,11 @@ title: "G'day, I'm Chloe."
 
 <div class="nav-section" style="text-align: center; margin: 30px 0; padding: 20px 0; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background: #fafafa;">
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
-    <div style="display: flex; justify-content: center; align-items: center; gap: 70px; flex-wrap: wrap;">
-      <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 24px; padding: 18px 30px; border-radius: 12px; transition: all 0.3s ease; letter-spacing: 1px;">Home</a>
-      <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 24px; padding: 18px 30px; border-radius: 12px; transition: all 0.3s ease; letter-spacing: 1px;">About</a>
-      <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 24px; padding: 18px 30px; border-radius: 12px; transition: all 0.3s ease; letter-spacing: 1px;">Portfolio</a>
-      <a href="/blog/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 24px; padding: 18px 30px; border-radius: 12px; transition: all 0.3s ease; letter-spacing: 1px;">Blog</a>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 90px; flex-wrap: wrap;">
+      <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px;">Home</a>
+      <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px;">About</a>
+      <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px;">Portfolio</a>
+      <a href="/blog/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px;">Blog</a>
     </div>
   </div>
 </div>
@@ -124,7 +124,7 @@ title: "G'day, I'm Chloe."
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  gap: 70px !important;
+  gap: 90px !important;
   flex-wrap: wrap !important;
   width: 100% !important;
 }
@@ -132,42 +132,38 @@ title: "G'day, I'm Chloe."
 .nav-section a {
   color: #2d5a3d !important;
   text-decoration: none !important;
-  font-weight: 600 !important;
-  font-size: 24px !important;
-  padding: 18px 30px !important;
-  border-radius: 12px !important;
+  font-weight: 800 !important;
+  font-size: 28px !important;
+  padding: 22px 35px !important;
+  border-radius: 15px !important;
   transition: all 0.3s ease !important;
-  letter-spacing: 1px !important;
+  letter-spacing: 1.2px !important;
 }
 
 /* 手机导航响应式 */
 @media (max-width: 768px) {
   .nav-section > div > div {
-    gap: 40px !important;
+    gap: 50px !important;
     flex-wrap: wrap !important;
   }
   .nav-section a {
-    font-size: 20px !important;
-    padding: 15px 25px !important;
-    font-weight: 600 !important;
+    font-size: 22px !important;
+    padding: 18px 28px !important;
+    font-weight: 800 !important;
   }
 }
 
 /* 平板导航响应式 */
 @media (min-width: 769px) and (max-width: 1024px) {
   .nav-section > div > div {
-    gap: 60px !important;
+    gap: 80px !important;
   }
   .nav-section a {
-    font-size: 22px !important;
-    padding: 16px 28px !important;
+    font-size: 25px !important;
+    padding: 20px 32px !important;
   }
 }
 </style>
-
-## 欢迎来到我的数据分析世界
-
-我是一名热爱数据分析的专业人士，专注于将复杂的数据转化为有价值的商业洞察。
 
 ### 📝 最新文章
 - [我的 Tableau 入门总结](/blog/tableau-basics/) - 从零开始学习Tableau的完整经验分享
@@ -177,5 +173,3 @@ title: "G'day, I'm Chloe."
 
 **查看更多文章**: [Blog](/blog/)
 
-### 💡 为什么选择数据分析？
-数据不会说谎，但需要我们用心去解读。我相信通过专业的数据分析，可以帮助企业发现隐藏的机会，优化业务流程，做出更明智的决策。
