@@ -175,11 +175,13 @@ title: "G'day, I'm Chloe."
 - **商业智能**: KPI监控、业务报告自动化
 - **预测建模**: 销售预测、客户行为分析
 
-### 📊 最新动态
-- ✅ 获得 Tableau Desktop Specialist 认证
-- ✅ 获得 Microsoft Power BI Data Analyst 认证
-- 📝 正在学习 Tableau Server 管理
-- 🔄 持续更新 [Blog](/blog/) 和 [Portfolio](/portfolio/)
+### 📝 最新文章
+- [我的 Tableau 入门总结](/blog/tableau-basics/) - 从零开始学习Tableau的完整经验分享
+- [PTE 学习经验分享](/blog/pte-learning-experience/) - Tableau认证考试备考心得
+- [Python 数据分析实战](/blog/python-data-analysis/) - 用Python处理真实业务数据的案例分析
+- [Power BI 高级功能探索](/blog/power-bi-advanced/) - 企业级BI报告设计技巧
+
+**查看更多文章**: [Blog](/blog/)
 
 ### 💡 为什么选择数据分析？
 数据不会说谎，但需要我们用心去解读。我相信通过专业的数据分析，可以帮助企业发现隐藏的机会，优化业务流程，做出更明智的决策。
