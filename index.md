@@ -225,8 +225,8 @@ a[href*="atom.xml"] {
 <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
   <div style="margin: 25px 0; padding: 0;">
     <div style="display: flex; align-items: center;">
-      <span style="color: #2d5a3d; font-weight: 700; font-size: 24px; width: 90px; text-align: left;">1.</span>
-      <div style="flex: 1; display: flex; justify-content: space-between; align-items: center;">
+      <span style="color: #2d5a3d; font-weight: 700; font-size: 24px; width: 60px; text-align: left;">1.</span>
+      <div style="flex: 1; display: flex; justify-content: space-between; align-items: center; padding-left: 15px;">
         <a href="/blog/tableau-basics/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 26px;">My Tableau Learning Journey</a>
         <span style="color: #888; font-size: 22px; font-weight: normal;">January 15, 2025</span>
       </div>
@@ -234,8 +234,8 @@ a[href*="atom.xml"] {
   </div>
   <div style="margin: 25px 0; padding: 0;">
     <div style="display: flex; align-items: center;">
-      <span style="color: #2d5a3d; font-weight: 700; font-size: 24px; width: 90px; text-align: left;">2.</span>
-      <div style="flex: 1; display: flex; justify-content: space-between; align-items: center;">
+      <span style="color: #2d5a3d; font-weight: 700; font-size: 24px; width: 60px; text-align: left;">2.</span>
+      <div style="flex: 1; display: flex; justify-content: space-between; align-items: center; padding-left: 15px;">
         <a href="/blog/pte-learning-experience/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 26px;">PTE Certification Experience</a>
         <span style="color: #888; font-size: 22px; font-weight: normal;">January 10, 2025</span>
       </div>
@@ -243,8 +243,8 @@ a[href*="atom.xml"] {
   </div>
   <div style="margin: 25px 0; padding: 0;">
     <div style="display: flex; align-items: center;">
-      <span style="color: #2d5a3d; font-weight: 700; font-size: 24px; width: 90px; text-align: left;">3.</span>
-      <div style="flex: 1; display: flex; justify-content: space-between; align-items: center;">
+      <span style="color: #2d5a3d; font-weight: 700; font-size: 24px; width: 60px; text-align: left;">3.</span>
+      <div style="flex: 1; display: flex; justify-content: space-between; align-items: center; padding-left: 15px;">
         <a href="/blog/python-data-analysis/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 26px;">Python Data Analysis in Practice</a>
         <span style="color: #888; font-size: 22px; font-weight: normal;">January 5, 2025</span>
       </div>
@@ -252,8 +252,8 @@ a[href*="atom.xml"] {
   </div>
   <div style="margin: 25px 0; padding: 0;">
     <div style="display: flex; align-items: center;">
-      <span style="color: #2d5a3d; font-weight: 700; font-size: 24px; width: 90px; text-align: left;">4.</span>
-      <div style="flex: 1; display: flex; justify-content: space-between; align-items: center;">
+      <span style="color: #2d5a3d; font-weight: 700; font-size: 24px; width: 60px; text-align: left;">4.</span>
+      <div style="flex: 1; display: flex; justify-content: space-between; align-items: center; padding-left: 15px;">
         <a href="/blog/power-bi-advanced/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 26px;">Power BI Advanced Features</a>
         <span style="color: #888; font-size: 22px; font-weight: normal;">December 28, 2024</span>
       </div>
