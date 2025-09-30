@@ -223,33 +223,41 @@ a[href*="atom.xml"] {
 <div class="blog-posts">
 <h3 style="color: #2d5a3d; text-align: center; margin-bottom: 30px; font-size: 28px;">📝 Latest Posts</h3>
 <ul style="list-style: none; padding: 0; margin: 0;">
-  <li style="margin: 25px 0; padding: 0;">
-    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 5px;">
-      <a href="/blog/tableau-basics/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px;">My Tableau Learning Journey</a>
-      <span style="color: #888; font-size: 14px; font-weight: normal;">January 15, 2025</span>
+  <li style="margin: 20px 0; padding: 0;">
+    <div style="display: flex; align-items: center; gap: 15px;">
+      <span style="color: #2d5a3d; font-weight: 700; font-size: 16px; min-width: 25px;">1.</span>
+      <div style="flex: 1; display: flex; justify-content: space-between; align-items: center;">
+        <a href="/blog/tableau-basics/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px;">My Tableau Learning Journey</a>
+        <span style="color: #888; font-size: 14px; font-weight: normal;">January 15, 2025</span>
+      </div>
     </div>
-    <p style="color: #666; margin: 0; font-size: 15px; line-height: 1.4;">Complete guide from beginner to specialist certification</p>
   </li>
-  <li style="margin: 25px 0; padding: 0;">
-    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 5px;">
-      <a href="/blog/pte-learning-experience/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px;">PTE Certification Experience</a>
-      <span style="color: #888; font-size: 14px; font-weight: normal;">January 10, 2025</span>
+  <li style="margin: 20px 0; padding: 0;">
+    <div style="display: flex; align-items: center; gap: 15px;">
+      <span style="color: #2d5a3d; font-weight: 700; font-size: 16px; min-width: 25px;">2.</span>
+      <div style="flex: 1; display: flex; justify-content: space-between; align-items: center;">
+        <a href="/blog/pte-learning-experience/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px;">PTE Certification Experience</a>
+        <span style="color: #888; font-size: 14px; font-weight: normal;">January 10, 2025</span>
+      </div>
     </div>
-    <p style="color: #666; margin: 0; font-size: 15px; line-height: 1.4;">Tips and strategies for Tableau certification success</p>
   </li>
-  <li style="margin: 25px 0; padding: 0;">
-    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 5px;">
-      <a href="/blog/python-data-analysis/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px;">Python Data Analysis in Practice</a>
-      <span style="color: #888; font-size: 14px; font-weight: normal;">January 5, 2025</span>
+  <li style="margin: 20px 0; padding: 0;">
+    <div style="display: flex; align-items: center; gap: 15px;">
+      <span style="color: #2d5a3d; font-weight: 700; font-size: 16px; min-width: 25px;">3.</span>
+      <div style="flex: 1; display: flex; justify-content: space-between; align-items: center;">
+        <a href="/blog/python-data-analysis/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px;">Python Data Analysis in Practice</a>
+        <span style="color: #888; font-size: 14px; font-weight: normal;">January 5, 2025</span>
+      </div>
     </div>
-    <p style="color: #666; margin: 0; font-size: 15px; line-height: 1.4;">Real-world business data analysis case study</p>
   </li>
-  <li style="margin: 25px 0; padding: 0;">
-    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 5px;">
-      <a href="/blog/power-bi-advanced/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px;">Power BI Advanced Features</a>
-      <span style="color: #888; font-size: 14px; font-weight: normal;">December 28, 2024</span>
+  <li style="margin: 20px 0; padding: 0;">
+    <div style="display: flex; align-items: center; gap: 15px;">
+      <span style="color: #2d5a3d; font-weight: 700; font-size: 16px; min-width: 25px;">4.</span>
+      <div style="flex: 1; display: flex; justify-content: space-between; align-items: center;">
+        <a href="/blog/power-bi-advanced/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px;">Power BI Advanced Features</a>
+        <span style="color: #888; font-size: 14px; font-weight: normal;">December 28, 2024</span>
+      </div>
     </div>
-    <p style="color: #666; margin: 0; font-size: 15px; line-height: 1.4;">Enterprise-level BI reporting techniques</p>
   </li>
 </ul>
 </div>
