@@ -20,3 +20,7 @@ nav:
 
 url: "https://fullstackchloe.com"  # 换成你的域名
 baseurl: ""                        # 保持空
+
+# 禁用RSS feed
+feed:
+  enabled: false
