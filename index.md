@@ -169,12 +169,6 @@ title: "G'day, I'm Chloe."
 
 我是一名热爱数据分析的专业人士，专注于将复杂的数据转化为有价值的商业洞察。
 
-### 🎯 我的专长
-- **数据可视化**: Tableau、Power BI 仪表板设计
-- **数据分析**: Python、R、SQL 数据处理
-- **商业智能**: KPI监控、业务报告自动化
-- **预测建模**: 销售预测、客户行为分析
-
 ### 📝 最新文章
 - [我的 Tableau 入门总结](/blog/tableau-basics/) - 从零开始学习Tableau的完整经验分享
 - [PTE 学习经验分享](/blog/pte-learning-experience/) - Tableau认证考试备考心得
