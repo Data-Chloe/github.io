@@ -91,12 +91,12 @@ title: "G'day, I'm Chloe."
 
 <div class="nav-section" style="text-align: center; margin: 30px 0; padding: 20px 0; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background: #fafafa;">
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
-    <div style="display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: wrap;">
-      <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px; padding: 12px 20px; border-radius: 8px; transition: all 0.3s ease; letter-spacing: 0.5px;">首页</a>
-      <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px; padding: 12px 20px; border-radius: 8px; transition: all 0.3s ease; letter-spacing: 0.5px;">关于我</a>
-      <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px; padding: 12px 20px; border-radius: 8px; transition: all 0.3s ease; letter-spacing: 0.5px;">作品集</a>
-      <a href="/blog/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px; padding: 12px 20px; border-radius: 8px; transition: all 0.3s ease; letter-spacing: 0.5px;">学习日志</a>
-      <a href="/certifications/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 18px; padding: 12px 20px; border-radius: 8px; transition: all 0.3s ease; letter-spacing: 0.5px;">认证</a>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 50px; flex-wrap: wrap;">
+      <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; padding: 15px 25px; border-radius: 10px; transition: all 0.3s ease; letter-spacing: 0.8px;">首页</a>
+      <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; padding: 15px 25px; border-radius: 10px; transition: all 0.3s ease; letter-spacing: 0.8px;">关于我</a>
+      <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; padding: 15px 25px; border-radius: 10px; transition: all 0.3s ease; letter-spacing: 0.8px;">作品集</a>
+      <a href="/blog/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; padding: 15px 25px; border-radius: 10px; transition: all 0.3s ease; letter-spacing: 0.8px;">学习日志</a>
+      <a href="/certifications/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; padding: 15px 25px; border-radius: 10px; transition: all 0.3s ease; letter-spacing: 0.8px;">认证</a>
     </div>
   </div>
 </div>
@@ -125,7 +125,7 @@ title: "G'day, I'm Chloe."
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  gap: 40px !important;
+  gap: 50px !important;
   flex-wrap: wrap !important;
   width: 100% !important;
 }
@@ -134,22 +134,22 @@ title: "G'day, I'm Chloe."
   color: #2d5a3d !important;
   text-decoration: none !important;
   font-weight: 600 !important;
-  font-size: 18px !important;
-  padding: 12px 20px !important;
-  border-radius: 8px !important;
+  font-size: 20px !important;
+  padding: 15px 25px !important;
+  border-radius: 10px !important;
   transition: all 0.3s ease !important;
-  letter-spacing: 0.5px !important;
+  letter-spacing: 0.8px !important;
 }
 
 /* 手机导航响应式 */
 @media (max-width: 768px) {
   .nav-section > div > div {
-    gap: 25px !important;
+    gap: 30px !important;
     flex-wrap: wrap !important;
   }
   .nav-section a {
-    font-size: 16px !important;
-    padding: 10px 16px !important;
+    font-size: 18px !important;
+    padding: 12px 20px !important;
     font-weight: 600 !important;
   }
 }
@@ -157,11 +157,11 @@ title: "G'day, I'm Chloe."
 /* 平板导航响应式 */
 @media (min-width: 769px) and (max-width: 1024px) {
   .nav-section > div > div {
-    gap: 35px !important;
+    gap: 45px !important;
   }
   .nav-section a {
-    font-size: 17px !important;
-    padding: 11px 18px !important;
+    font-size: 19px !important;
+    padding: 14px 22px !important;
   }
 }
 </style>
