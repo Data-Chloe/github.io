@@ -202,11 +202,25 @@ title: "G'day, I'm Chloe."
 </style>
 
 <div class="blog-posts">
-### 📝 Latest Posts
-- [My Tableau Learning Journey](/blog/tableau-basics/) - Complete guide from beginner to specialist certification
-- [PTE Certification Experience](/blog/pte-learning-experience/) - Tips and strategies for Tableau certification success
-- [Python Data Analysis in Practice](/blog/python-data-analysis/) - Real-world business data analysis case study
-- [Power BI Advanced Features](/blog/power-bi-advanced/) - Enterprise-level BI reporting techniques
+<h3 style="color: #2d5a3d; text-align: center; margin-bottom: 30px; font-size: 28px;">📝 Latest Posts</h3>
+<ul style="list-style: none; padding: 0; margin: 0;">
+  <li style="margin: 25px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #2d5a3d;">
+    <a href="/blog/tableau-basics/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; display: block; margin-bottom: 8px;">My Tableau Learning Journey</a>
+    <p style="color: #666; margin: 0; font-size: 16px; line-height: 1.5;">Complete guide from beginner to specialist certification</p>
+  </li>
+  <li style="margin: 25px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #2d5a3d;">
+    <a href="/blog/pte-learning-experience/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; display: block; margin-bottom: 8px;">PTE Certification Experience</a>
+    <p style="color: #666; margin: 0; font-size: 16px; line-height: 1.5;">Tips and strategies for Tableau certification success</p>
+  </li>
+  <li style="margin: 25px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #2d5a3d;">
+    <a href="/blog/python-data-analysis/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; display: block; margin-bottom: 8px;">Python Data Analysis in Practice</a>
+    <p style="color: #666; margin: 0; font-size: 16px; line-height: 1.5;">Real-world business data analysis case study</p>
+  </li>
+  <li style="margin: 25px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #2d5a3d;">
+    <a href="/blog/power-bi-advanced/" style="color: #2d5a3d; text-decoration: none; font-weight: 600; font-size: 20px; display: block; margin-bottom: 8px;">Power BI Advanced Features</a>
+    <p style="color: #666; margin: 0; font-size: 16px; line-height: 1.5;">Enterprise-level BI reporting techniques</p>
+  </li>
+</ul>
 </div>
 
 
