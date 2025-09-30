@@ -209,4 +209,11 @@ title: "G'day, I'm Chloe."
 - [Power BI Advanced Features](/blog/power-bi-advanced/) - Enterprise-level BI reporting techniques
 </div>
 
+<div style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 60px 0; text-align: center; margin: 80px 0 0 0;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+    <h1 style="font-size: 3rem; margin: 0; font-weight: 700; line-height: 1.2;">Thanks for visiting!</h1>
+  </div>
+</div>
+
+
 
