@@ -5,11 +5,11 @@ title: "G'day, I'm Chloe."
 
 <div class="hero-section" style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 60px 0; text-align: center;">
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
-    <div style="display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap;">
-      <div style="flex: 1; min-width: 350px; text-align: left;">
+    <div style="display: flex; align-items: center; justify-content: center; gap: 0px; flex-wrap: wrap;">
+      <div style="flex: 1; min-width: 350px; text-align: right; padding-right: 10px;">
         <h1 style="font-size: 3rem; margin: 0; font-weight: 700; line-height: 1.2;">G'day, I'm Chloe.</h1>
       </div>
-      <div style="flex: 0 0 auto; text-align: center;">
+      <div style="flex: 0 0 auto; text-align: left; padding-left: 10px;">
         <img src="/assets/images/profile.jpg" alt="Chloe" style="width: 200px; height: 200px; border-radius: 50%; border: 3px solid rgba(255,255,255,0.5); object-fit: cover; object-position: center; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; box-shadow: 0 6px 20px rgba(0,0,0,0.15);">
       </div>
     </div>
@@ -39,7 +39,7 @@ title: "G'day, I'm Chloe."
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 8px !important;
+  gap: 0px !important;
   flex-wrap: wrap !important;
   width: 100% !important;
 }
@@ -69,7 +69,7 @@ title: "G'day, I'm Chloe."
   }
   .hero-section > div > div {
     flex-direction: column !important;
-    gap: 15px !important;
+    gap: 5px !important;
     text-align: center !important;
   }
   .hero-section h1 {
