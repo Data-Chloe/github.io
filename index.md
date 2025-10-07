@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "G'day, I'm Chloe."
+classes: home
 ---
 
 <div class="hero-section" style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 60px 0; text-align: center;">
@@ -163,10 +164,10 @@ title: "G'day, I'm Chloe."
   }
 }
 
-/* 文章列表样式 */
+/* 文章列表样式 - 主页使用宽屏 */
 .blog-posts {
   text-align: center !important;
-  max-width: 800px !important;
+  max-width: 1400px !important;
   margin: 0 auto !important;
   padding: 0 20px !important;
 }
@@ -218,7 +219,7 @@ a[href*="atom.xml"] {
   margin: 0 auto !important;
 }
 
-/* 主页经典布局 */
+/* 主页宽屏布局 - 保持原来的宽屏效果 */
 .page__content {
   max-width: 1400px !important;
   margin: 0 auto !important;
@@ -234,6 +235,70 @@ a[href*="atom.xml"] {
 .single .page__inner {
   max-width: 1400px !important;
   margin: 0 auto !important;
+}
+
+/* 确保主页内容区域不受其他样式影响 */
+body.home .page__content,
+body.home .page__inner,
+body.home .single .page__content,
+body.home .single .page__inner {
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+/* 主页特有样式 - 强制宽屏布局 */
+.hero-section,
+.nav-section,
+.blog-posts {
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+}
+
+/* 强制覆盖所有可能的容器限制 */
+.home .page__inner,
+.home .page__content,
+.home .single .page__inner,
+.home .single .page__content,
+.home .page {
+  max-width: 1400px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+/* 确保主页的各个部分都使用宽屏 */
+.home .hero-section > div {
+  max-width: 1400px !important;
+  width: 100% !important;
+}
+
+.home .nav-section > div {
+  max-width: 1400px !important;
+  width: 100% !important;
+}
+
+.home .blog-posts > div {
+  max-width: 1400px !important;
+  width: 100% !important;
+}
+
+/* 主页强制宽屏 - 最高优先级 */
+body.home .blog-posts {
+  max-width: 1400px !important;
+  width: 100% !important;
+}
+
+body.home .blog-posts > div {
+  max-width: 1400px !important;
+  width: 100% !important;
+}
+
+/* 确保主页不受其他页面样式影响 */
+.home .page__content.blog-posts,
+.home .single .page__content.blog-posts {
+  max-width: 1400px !important;
+  width: 100% !important;
 }
 </style>
 
