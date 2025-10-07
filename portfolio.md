@@ -6,7 +6,7 @@ layout: single
 
 <div class="nav-section" style="text-align: center; margin: 30px 0; padding: 20px 0; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background: #fafafa;">
   <div style="max-width: 1400px; margin: 0 auto; padding: 0 50px;">
-    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 90px; flex-wrap: wrap;">
       <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px;">Home</a>
       <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px;">About</a>
       <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px; background: #e8f5e8;">Portfolio</a>
@@ -37,8 +37,9 @@ layout: single
 
 .nav-section > div > div {
   display: flex !important;
-  justify-content: space-between !important;
+  justify-content: center !important;
   align-items: center !important;
+  gap: 90px !important;
   flex-wrap: wrap !important;
   width: 100% !important;
 }
