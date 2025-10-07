@@ -7,6 +7,81 @@ tags: [Python, 数据分析, Pandas, 实战案例]
 layout: single
 ---
 
+<div class="nav-section" style="text-align: center; margin: 30px 0; padding: 20px 0; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background: #fafafa;">
+  <div style="max-width: 1400px; margin: 0 auto; padding: 0 50px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+      <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px;">Home</a>
+      <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px;">About</a>
+      <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px;">Portfolio</a>
+      <a href="/blog/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px; background: #e8f5e8;">Blog</a>
+    </div>
+  </div>
+</div>
+
+<style>
+/* 导航栏样式 */
+.nav-section {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 30px 0 !important;
+  padding: 20px 0 !important;
+  text-align: center !important;
+  border-top: 1px solid #e8e8e8 !important;
+  border-bottom: 1px solid #e8e8e8 !important;
+  background: #fafafa !important;
+}
+
+.nav-section > div {
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 0 50px !important;
+  width: 100% !important;
+}
+
+.nav-section > div > div {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  width: 100% !important;
+}
+
+.nav-section a {
+  color: #2d5a3d !important;
+  text-decoration: none !important;
+  font-weight: 800 !important;
+  font-size: 28px !important;
+  padding: 22px 35px !important;
+  border-radius: 15px !important;
+  transition: all 0.3s ease !important;
+  letter-spacing: 1.2px !important;
+}
+
+/* 手机导航响应式 */
+@media (max-width: 768px) {
+  .nav-section > div > div {
+    gap: 50px !important;
+    flex-wrap: wrap !important;
+  }
+  .nav-section a {
+    font-size: 22px !important;
+    padding: 18px 28px !important;
+    font-weight: 800 !important;
+  }
+}
+
+/* 平板导航响应式 */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nav-section > div > div {
+    gap: 80px !important;
+  }
+  .nav-section a {
+    font-size: 25px !important;
+    padding: 20px 32px !important;
+  }
+}
+</style>
+
 # Python 数据分析实战
 
 在实际业务中，数据分析往往需要处理复杂的真实数据。这篇文章分享一个完整的Python数据分析项目，从数据清洗到可视化呈现的全过程。
