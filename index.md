@@ -4,7 +4,7 @@ title: "G'day, I'm Chloe."
 ---
 
 <div class="hero-section" style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 60px 0; text-align: center;">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+  <div style="max-width: 1400px; margin: 0 auto; padding: 0 50px;">
     <div style="display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap;">
       <div style="flex: 0 0 auto; text-align: right;">
         <h1 style="font-size: 3rem; margin: 0; font-weight: 700; line-height: 1.2;">G'day, I'm Chloe.</h1>
@@ -29,9 +29,9 @@ title: "G'day, I'm Chloe."
 }
 
 .hero-section > div {
-  max-width: 1200px !important;
+  max-width: 1400px !important;
   margin: 0 auto !important;
-  padding: 0 30px !important;
+  padding: 0 50px !important;
   width: 100% !important;
 }
 
@@ -90,8 +90,8 @@ title: "G'day, I'm Chloe."
 </style>
 
 <div class="nav-section" style="text-align: center; margin: 30px 0; padding: 20px 0; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background: #fafafa;">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
-    <div style="display: flex; justify-content: center; align-items: center; gap: 90px; flex-wrap: wrap;">
+  <div style="max-width: 1400px; margin: 0 auto; padding: 0 50px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
       <a href="/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px;">Home</a>
       <a href="/about/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px;">About</a>
       <a href="/portfolio/" style="color: #2d5a3d; text-decoration: none; font-weight: 800; font-size: 28px; padding: 22px 35px; border-radius: 15px; transition: all 0.3s ease; letter-spacing: 1.2px;">Portfolio</a>
@@ -114,17 +114,16 @@ title: "G'day, I'm Chloe."
 }
 
 .nav-section > div {
-  max-width: 1200px !important;
+  max-width: 1400px !important;
   margin: 0 auto !important;
-  padding: 0 30px !important;
+  padding: 0 50px !important;
   width: 100% !important;
 }
 
 .nav-section > div > div {
   display: flex !important;
-  justify-content: center !important;
+  justify-content: space-between !important;
   align-items: center !important;
-  gap: 90px !important;
   flex-wrap: wrap !important;
   width: 100% !important;
 }
@@ -221,8 +220,7 @@ a[href*="atom.xml"] {
 </style>
 
 <div class="blog-posts">
-<h3 style="color: #2d5a3d; text-align: center; margin-bottom: 30px; font-size: 28px;">📝 Latest Posts</h3>
-<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+<div style="max-width: 1400px; margin: 0 auto; padding: 0 50px;">
   <div style="margin: 25px 0; padding: 0;">
     <div style="display: flex; align-items: center;">
       <span style="color: #2d5a3d; font-weight: 700; font-size: 24px; width: 60px; text-align: left;">1.</span>
@@ -263,7 +261,7 @@ a[href*="atom.xml"] {
 </div>
 
 <div style="background: linear-gradient(135deg, #2d5a3d 0%, #1e3d2b 100%); color: white; padding: 30px 0; text-align: center; margin: 80px 0 0 0;">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+  <div style="max-width: 1400px; margin: 0 auto; padding: 0 50px;">
     <h1 style="font-size: 2.5rem; margin: 0; font-weight: 700; line-height: 1.2;">Thanks for visiting!</h1>
   </div>
 </div>
