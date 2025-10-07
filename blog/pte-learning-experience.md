@@ -80,6 +80,87 @@ layout: single
     padding: 20px 32px !important;
   }
 }
+
+/* 文章页面经典布局 */
+.page__content {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+  font-size: 16px !important;
+  line-height: 1.7 !important;
+}
+
+.page__content h1 {
+  font-size: 2.5rem !important;
+  margin-bottom: 1rem !important;
+  color: #2d5a3d !important;
+  border-bottom: 2px solid #e8e8e8 !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.page__content h2 {
+  font-size: 1.8rem !important;
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
+  color: #2d5a3d !important;
+}
+
+.page__content h3 {
+  font-size: 1.4rem !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 0.8rem !important;
+  color: #333 !important;
+}
+
+.page__content p {
+  margin-bottom: 1.2rem !important;
+  color: #444 !important;
+}
+
+.page__content ul, .page__content ol {
+  margin-bottom: 1.2rem !important;
+  padding-left: 2rem !important;
+}
+
+.page__content li {
+  margin-bottom: 0.5rem !important;
+  color: #444 !important;
+}
+
+.page__content blockquote {
+  border-left: 4px solid #2d5a3d !important;
+  padding-left: 1.5rem !important;
+  margin: 1.5rem 0 !important;
+  font-style: italic !important;
+  color: #666 !important;
+}
+
+.page__content code {
+  background: #f5f5f5 !important;
+  padding: 0.2rem 0.4rem !important;
+  border-radius: 3px !important;
+  font-family: 'Courier New', monospace !important;
+}
+
+.page__content pre {
+  background: #f8f8f8 !important;
+  padding: 1rem !important;
+  border-radius: 5px !important;
+  overflow-x: auto !important;
+  border: 1px solid #e8e8e8 !important;
+}
+
+/* 强制覆盖Jekyll主题样式 */
+.single .page__content {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+}
+
+.single .page__inner {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
 </style>
 
 # PTE 学习经验分享
