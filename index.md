@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: "G'day, I'm Chloe."
 ---
 
@@ -215,6 +215,24 @@ a[href*="atom.xml"] {
 
 .page__footer-copyright {
   text-align: center !important;
+  margin: 0 auto !important;
+}
+
+/* 主页经典布局 */
+.page__content {
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+.single .page__content {
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+.single .page__inner {
+  max-width: 1400px !important;
   margin: 0 auto !important;
 }
 </style>

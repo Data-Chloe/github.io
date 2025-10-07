@@ -151,15 +151,33 @@ layout: single
 }
 
 /* 强制覆盖Jekyll主题样式 */
-.single .page__content {
+body .single .page__content,
+body .page__content {
   max-width: 800px !important;
   margin: 0 auto !important;
   padding: 0 20px !important;
+  width: auto !important;
 }
 
-.single .page__inner {
+body .single .page__inner,
+body .page__inner {
   max-width: 800px !important;
   margin: 0 auto !important;
+  width: auto !important;
+}
+
+/* 确保页面容器正确 */
+.single .page,
+.page {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
+
+/* 覆盖主题的默认样式 */
+.single .page__inner .page__content {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
 }
 </style>
 
